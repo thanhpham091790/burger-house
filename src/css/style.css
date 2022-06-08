@@ -207,4 +207,24 @@ header #price #w-border .label .t-label {
   font-size: 4rem;
   letter-spacing: .5rem;
 }
+
+#try-it-today #popular, #try-it-today #fun-taste, #try-it-today #fresh-chili {
+  position: relative;
+  color: #ffffff;
+  margin: 3.2rem 0;
+}
+
+#try-it-today #popular .text, #try-it-today #fun-taste .text, #try-it-today #fresh-chili .text {
+  position: absolute;
+  top: 3.2rem;
+  left: 3.2rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 4rem;
+}
+
+#try-it-today #popular .text p:last-child, #try-it-today #fun-taste .text p:last-child, #try-it-today #fresh-chili .text p:last-child {
+  font-size: 5rem;
+}
 /*# sourceMappingURL=style.css.map */
