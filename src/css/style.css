@@ -1,1 +1,210 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  max-width: 144rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-color: transparent;
+  background-image: url(../assets/header/burger.png), url(../assets/header/header-background.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 30% 40%, 0% 0%;
+  background-size: auto, auto;
+}
+
+header #logo-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #logo-navbar #logo {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+header #logo-navbar #delivery {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.667rem;
+  font-weight: 700;
+  color: #3d2514;
+}
+
+header #logo-navbar svg#menu {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  fill: #3d2514;
+}
+
+header #logo-navbar svg#menu:hover {
+  fill: #bf2222;
+}
+
+header #logo-navbar #navbar {
+  display: none;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header #logo-navbar #navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header #logo-navbar #navbar nav svg#close {
+  fill: #3d2514;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+header #logo-navbar #navbar nav svg#close:hover {
+  fill: #bf2222;
+}
+
+header #logo-navbar #navbar nav ul {
+  list-style-type: none;
+}
+
+header #logo-navbar #navbar nav ul li a {
+  color: #3d2514;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 1.6rem;
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.083rem;
+}
+
+header #logo-navbar #navbar nav ul li a:hover {
+  color: #bf2222;
+}
+
+header #header-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  text-transform: uppercase;
+}
+
+header #header-text p:first-child {
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.365rem;
+  color: #3d2514;
+  border: 0.2rem dashed #3d2514;
+  padding: 1rem;
+}
+
+header #header-text h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 11.43rem;
+  color: #3d2514;
+  letter-spacing: 0.5rem;
+  text-shadow: 0.5rem 0.5rem #fee8bc;
+}
+
+header #header-text p:last-child {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 5.649rem;
+  color: #3d2514;
+  letter-spacing: 0.5rem;
+  text-shadow: 0.5rem 0.5rem #fee8bc;
+}
+
+header #price {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  width: 17.5rem;
+  height: 17.5rem;
+  background-color: #bf2222;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+header #price #w-border {
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: .2rem dashed #ffffff;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header #price #w-border .label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  color: #ffffff;
+  line-height: 4rem;
+  text-align: center;
+}
+
+header #price #w-border .label .n-label {
+  font-size: 7rem;
+}
+
+header #price #w-border .label .t-label {
+  font-size: 4rem;
+  letter-spacing: .5rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -12,30 +12,48 @@
 
 <body>
     <header>
-        <div id="logo">
-            <img src="assets/header/logo.png" alt="">
+        <div id="logo-navbar">
+            <div id="logo">
+                <img src="assets/header/logo.png" alt="">
+            </div>
+            <div id="delivery">
+                <img src="assets/header/express-delivery.png" alt="">
+                <span id="phone">Express Delivery +1 234 567 890</span>
+            </div>
+            <svg id='menu' xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px"
+                fill="#000000">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+            <div id="navbar">
+                <nav>
+                    <svg id='close' xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px"
+                        fill="#000000">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                    </svg>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div id="express-delivery">
-            <img src="assets/header/express-delivery.png" alt="">
-            <p id="phone">Express Delivery +1 234 567 890</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Our Story</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+
         <div id="header-text">
             <p>It is a good time for the great taste of burgers</p>
             <h1>Burger</h1>
             <p>Week</p>
         </div>
         <div id="price">
-            <div>
-                <div><span>$5</span>.49</div>
-                <div>Only</div>
+            <div id="w-border">
+                <div class="label">
+                    <span class="n-label">$5</span>.49
+                    <div class="t-label">Only</div>
+                </div>
             </div>
         </div>
     </header>
