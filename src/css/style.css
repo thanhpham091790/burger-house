@@ -20,6 +20,11 @@ img {
   max-width: 100%;
 }
 
+header, section, footer {
+  margin: 7rem 0;
+  padding: 0 1rem;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -211,7 +216,6 @@ header #price #w-border .label .t-label {
 #try-it-today #popular, #try-it-today #fun-taste, #try-it-today #fresh-chili {
   position: relative;
   color: #ffffff;
-  margin: 3.2rem 0;
 }
 
 #try-it-today #popular .text, #try-it-today #fun-taste .text, #try-it-today #fresh-chili .text {
@@ -302,5 +306,37 @@ header #price #w-border .label .t-label {
   font-size: 1.667rem;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+#upcoming-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#upcoming-events span {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.917rem;
+  color: #3d3d3d;
+  text-transform: uppercase;
+}
+
+#upcoming-events h2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 4.167rem;
+  color: #3d2514;
+  text-transform: uppercase;
+}
+
+#upcoming-events p {
+  font-family: 'Montserrat', cursive;
+  font-weight: 400;
+  font-size: 2.083rem;
+  color: #3d3d3d;
+  margin: 4.5rem 0;
 }
 /*# sourceMappingURL=style.css.map */
