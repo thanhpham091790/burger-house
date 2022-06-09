@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 40%;
 }
 
 body {
@@ -20,9 +20,9 @@ img {
   max-width: 100%;
 }
 
-section {
+header, section, footer {
   margin: 7rem 0;
-  padding: 0 1rem;
+  padding: 2rem;
 }
 
 header {
@@ -34,6 +34,7 @@ header {
   background-repeat: no-repeat, no-repeat;
   background-position: 30% 40%, 0% 0%;
   background-size: auto, auto;
+  margin-top: 0;
 }
 
 header #logo-navbar {
@@ -387,5 +388,51 @@ header #price #w-border .label .t-label {
 #book-your-table form button {
   background-color: #bf2222;
   color: #ffffff;
+}
+
+footer {
+  background: url(../assets/footer/footer-background.png);
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0;
+}
+
+footer #f-logo img {
+  max-width: 50%;
+}
+
+footer #f-address {
+  margin: 3rem 0;
+}
+
+footer #f-address p {
+  font-family: 'Montserrat', cursive;
+  font-weight: 400;
+  font-size: 1.667rem;
+}
+
+footer #f-address address {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.083rem;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-top: 3rem;
+}
+
+footer #f-copyright-socials {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.667rem;
+  text-transform: uppercase;
+}
+
+footer span {
+  display: inline-block;
+  padding-right: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
