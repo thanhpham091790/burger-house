@@ -136,7 +136,7 @@ header #logo-navbar #navbar nav ul li a:hover {
 header #header-text {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 2rem;
   -webkit-transform: translate(0%, -50%);
           transform: translate(0%, -50%);
   text-transform: uppercase;
@@ -212,6 +212,12 @@ header #price #w-border .label .n-label {
 header #price #w-border .label .t-label {
   font-size: 4rem;
   letter-spacing: .5rem;
+}
+
+#try-it-today {
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
 }
 
 #try-it-today #popular, #try-it-today #fun-taste, #try-it-today #fresh-chili {
@@ -376,7 +382,7 @@ header #price #w-border .label .t-label {
 }
 
 #book-your-table form input, #book-your-table form button {
-  padding: 1rem;
+  padding: 2rem;
   border: .1rem solid #bebebe;
   border-radius: .5rem;
   font-family: 'Bebas Neue', cursive;
@@ -434,5 +440,34 @@ footer #f-copyright-socials {
 footer span {
   display: inline-block;
   padding-right: 2rem;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 53%;
+  }
+  #try-it-today {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    gap: 2rem;
+  }
+  #try-it-today #popular, #try-it-today #fun-taste, #try-it-today #fresh-chili {
+    position: relative;
+    color: #ffffff;
+  }
+  #try-it-today #popular .text, #try-it-today #fun-taste .text, #try-it-today #fresh-chili .text {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  #try-it-today #popular {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+  }
 }
 /*# sourceMappingURL=style.css.map */
