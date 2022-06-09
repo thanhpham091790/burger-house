@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 40%;
+  font-size: 50%;
 }
 
 body {
@@ -443,9 +443,6 @@ footer span {
 }
 
 @media (min-width: 576px) {
-  html {
-    font-size: 53%;
-  }
   #try-it-today {
     display: -ms-grid;
     display: grid;
@@ -472,6 +469,12 @@ footer span {
 }
 
 @media (min-width: 768px) {
+  html {
+    font-size: 56.25%;
+  }
+  header #header-text {
+    top: 60%;
+  }
   #f-copyright-socials {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -483,6 +486,12 @@ footer span {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 62.5%;
   }
 }
 /*# sourceMappingURL=style.css.map */
