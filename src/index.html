@@ -130,14 +130,16 @@
         <img src="assets/upcoming-events/burger-1.png" alt="">
     </section>
     <section id="book-your-table">
-        <div><span>Reservation</span></div>
-        <h2>Book Your Table</h2>
+        <div>
+            <span>Reservation</span>
+            <h2>Book Your Table</h2>
+        </div>
         <form>
             <input type="text" placeholder="Name">
-            <input type="date" placeholder="Name">
-            <input type="number" placeholder="Name">
-            <input type="email" placeholder="Name">
-            <input type="time" placeholder="Name">
+            <input type="text" placeholder="Date" onfocus="(this.type = 'date')" onblur="(this.type = 'text')">
+            <input type="text" placeholder="People" onfocus="(this.type = 'number')" onblur="(this.type = 'text')">
+            <input type="text" placeholder="Email" onfocus="(this.type = 'email')" onblur="(this.type = 'text')">
+            <input type="text" placeholder="Time" onfocus="(this.type = 'time')" onblur="(this.type = 'text')">
             <button>Find A Table</button>
         </form>
     </section>
