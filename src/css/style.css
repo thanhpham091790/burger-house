@@ -493,5 +493,36 @@ footer span {
   html {
     font-size: 62.5%;
   }
+  #choose-enjoy #products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    gap: 2rem;
+  }
+  footer #f-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer #f-address p {
+    max-width: 50%;
+  }
+  footer #f-address address {
+    margin-top: unset;
+  }
+  footer #f-address address div {
+    padding: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
