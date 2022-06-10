@@ -493,6 +493,57 @@ footer span {
   html {
     font-size: 62.5%;
   }
+  header {
+    height: 85vh;
+    background-position: right -5rem bottom -15rem, 0% 0%;
+  }
+  header #logo-navbar {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  header #logo-navbar #logo {
+    display: inline-block;
+  }
+  header #logo-navbar #delivery {
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  header #logo-navbar svg#menu {
+    display: none;
+  }
+  header #logo-navbar #navbar {
+    display: block;
+    position: relative;
+    width: unset;
+  }
+  header #logo-navbar #navbar svg#close {
+    display: none;
+  }
+  header #logo-navbar #navbar nav {
+    display: block;
+  }
+  header #logo-navbar #navbar nav ul {
+    float: right;
+  }
+  header #logo-navbar #navbar nav ul li {
+    display: inline-block;
+  }
+  header #logo-navbar #navbar nav ul li a {
+    padding: 0 1.6rem;
+  }
+  header #header-text {
+    top: 50%;
+  }
+  header #price {
+    bottom: 8rem;
+    left: unset;
+    right: 40rem;
+  }
   #choose-enjoy #products {
     display: -ms-grid;
     display: grid;
