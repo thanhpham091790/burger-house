@@ -13,7 +13,11 @@ html {
 body {
   background-color: white;
   width: 100%;
+}
+
+body #wrapper {
   max-width: 144rem;
+  margin: 0 auto;
 }
 
 img {
@@ -33,7 +37,7 @@ header {
   background-image: url(../assets/header/burger.png), url(../assets/header/header-background.png);
   background-repeat: no-repeat, no-repeat;
   background-position: 30% 40%, 0% 0%;
-  background-size: auto, auto;
+  background-size: auto, cover;
   margin-top: 0;
 }
 
@@ -392,12 +396,16 @@ header #price #w-border .label .t-label {
 }
 
 #book-your-table form button {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.083rem;
   background-color: #bf2222;
   color: #ffffff;
 }
 
 footer {
   background: url(../assets/footer/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -618,6 +626,28 @@ footer span {
     -ms-grid-columns: auto auto auto;
         grid-template-columns: auto auto auto;
     gap: 2rem;
+  }
+  #popular, #fun-taste, #fresh-chili {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #book-your-table {
+    padding: 7rem 0;
+    background: url(../assets/book-your-table/burger.png), url(../assets/book-your-table/bottle.png), url(../assets/book-your-table/place.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top 5rem left 1rem, top 28rem left 6rem , right 1rem bottom -13rem;
+  }
+  #book-your-table #section-title {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 7rem 0;
+  }
+  #book-your-table form {
+    width: 50%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
