@@ -15,11 +15,6 @@ body {
   width: 100%;
 }
 
-body #wrapper {
-  max-width: 144rem;
-  margin: 0 auto;
-}
-
 img {
   max-width: 100%;
 }
@@ -620,6 +615,10 @@ footer span {
 }
 
 @media (min-width: 1200px) {
+  #wrapper {
+    max-width: 144rem;
+    margin: 0 auto;
+  }
   #choose-enjoy #products {
     display: -ms-grid;
     display: grid;
