@@ -551,6 +551,40 @@ footer span {
         grid-template-columns: auto auto;
     gap: 2rem;
   }
+  #upcoming-events {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 6rem;
+    -webkit-box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+            box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  #upcoming-events #left-info {
+    width: 50%;
+  }
+  #upcoming-events #left-info #slider-controls span {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+  }
+  #upcoming-events #left-info #slider-controls span:first-child {
+    background-color: #ffc045;
+  }
+  #upcoming-events #left-info #slider-controls span {
+    background-color: #dcdcdc;
+  }
+  #upcoming-events img {
+    width: 50%;
+  }
   footer #f-address {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -574,6 +608,16 @@ footer span {
   }
   footer #f-address address div {
     padding: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #choose-enjoy #products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    gap: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
